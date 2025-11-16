@@ -26,7 +26,8 @@ def base64string_to_array(base64string, array_dtype, array_shape):
 
 
 # Download input file, if needed.
-url = 'https://competitions.codalab.org/my/datasets/download/0d8a1e68-155d-4301-a8cd-9b829030d719'
+# url = 'https://competitions.codalab.org/my/datasets/download/0d8a1e68-155d-4301-a8cd-9b829030d719'
+url = 'http://130.63.97.225/share/SIDD_Blocks/BenchmarkNoisyBlocksSrgb.mat'
 input_file = 'BenchmarkNoisyBlocksSrgb.mat'
 if os.path.exists(input_file):
     print(f'{input_file} exists. No need to download it.')
